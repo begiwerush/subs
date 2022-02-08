@@ -102,7 +102,7 @@ export const Form = ({setIsRegistered, setLoading}) => {
     const saveEmailInDB = async () => {
         setLoading(true);
         try {
-            
+            // "https://subsribtion-backend.herokuapp.com/"
             const response = await fetch("http://localhost:5000/subscribtion/add-new-email", {
                 method: "POST",
                 headers: {
