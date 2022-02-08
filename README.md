@@ -1,7 +1,7 @@
 
 # Subscribtion Task - MERN STACK
 
-This application will handle user subscriptions. 
+This application will handle user subscribtions. The application uses MERN stack. The whole task is done in this app. 
 
 ## How to run?
 
@@ -12,7 +12,8 @@ After cloning this git repo, you should use :
   npm install
 ```
 
-for both BE and FE.
+for both BE and FE. This command will help you to install all the necessary dependencies.
+
 
 For frontend, yarn start is enough to run app or npm start.
 
@@ -41,15 +42,25 @@ or
   node index
 ```
 
+---
+**NOTE**
+
+You should run backend and frontend at the same time. If you dont, you can get "Failed to fetch!" - error.
+
+---
 
 
 ## API ENDPOINTs
 
-- http://localhost:5000/subscribtion/add-new-email - POST
-- http://localhost:5000/subscribtion/fetch-all-emails - GET
-- http://localhost:5000/subscribtion/delete-email-address/:id - DELETE
-- http://localhost:5000/subscribtion/sort-email-providers - GET
-- http://localhost:5000/subscribtion/filter?emailprovider=hubspot&search=tutu10@hubspot.com&sorting_by_date=-1 - GET
+- /subscribtion/add-new-email - POST
+- /subscribtion/fetch-all-emails - GET
+- /subscribtion/delete-email-address/:id - DELETE
+- /subscribtion/sort-email-providers - GET
+- /subscribtion/filter?emailprovider=hubspot&search=tutu10@hubspot.com&sorting_by_date=-1 - GET
+
+## BACKEND
+
+- localhost:3000/backend
 
 ## Tech Stack
 

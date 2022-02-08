@@ -1,0 +1,2 @@
+1) form on hover
+2) the email is already added
